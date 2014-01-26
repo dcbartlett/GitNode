@@ -1,0 +1,35 @@
+{
+  "name": "GitNode",
+  "version": "0.0.0",
+  "description": "Private Git Hosting based on Node.JS",
+  "main": "app.js",
+  "dependencies": {
+    "sockjs": "~0.3.8",
+    "express": "~3.4.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.8.1"
+  },
+  "scripts": {
+    "test": "mocha -C"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dcbartlett/GitNode.git"
+  },
+  "keywords": [
+    "GitLab",
+    "Github",
+    "Private",
+    "repo",
+    "git",
+    "hosting"
+  ],
+  "author": "Dennis Bartlett",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/dcbartlett/GitNode/issues"
+  },
+  "homepage": "https://github.com/dcbartlett/GitNode"
+}
