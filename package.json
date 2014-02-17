@@ -5,7 +5,10 @@
   "main": "app.js",
   "dependencies": {
     "sockjs": "~0.3.8",
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "restify": "~2.6.1",
+    "git-server": "~0.2.0",
+    "concurix-monitor": "~0.6.1"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
